@@ -4,14 +4,48 @@
     box-sizing: border-box;
 }
 
-header div{
+.centratura{
     width: 70%;
     margin: auto;
+}
+
+header div{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 h1{
     color: rgba(229,49,112,255);
     text-align: center;
+}
+
+div.centratura > p{
+    text-align: center;
+}
+
+#cardsContainer{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cards{
+    height: 75px;
+    width: 32%;
+    border: 1px solid black;
+    float: left;
+}
+
+.centrale{
+    margin-left: calc(4% / 2);
+    margin-right: calc(4% / 2);
+}
+
+.riga::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#riga2{
+    margin-top: 30px;
 }
