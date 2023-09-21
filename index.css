@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header div{
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+    color: rgba(229,49,112,255);
+    text-align: center;
+}
