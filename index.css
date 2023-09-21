@@ -1,14 +1,16 @@
+/* Generale */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inclusive Sans', sans-serif;
 }
 
 .centratura{
     width: 70%;
     margin: auto;
 }
-
+/* Header */
 header div{
     padding-top: 30px;
     padding-bottom: 50px;
@@ -18,7 +20,7 @@ h1{
     color: rgba(229,49,112,255);
     text-align: center;
 }
-
+/* Main (Struttura) */
 div.centratura > p{
     text-align: center;
 }
@@ -48,4 +50,25 @@ div.centratura > p{
 
 #riga2{
     margin-top: 30px;
+}
+/* Main (Carte) */
+.imgCards{
+    height: 100%;
+    float: left;
+}
+
+.infoCardsContainer{
+    height: 100%;
+    width: calc(100% - 73px);
+    background-color: rgba(15,14,23,255);
+    float: right;
+    padding: 10px;
+}
+
+.white{
+    color: white;
+}
+
+.azzurro{
+    color: rgb(83,173,201);
 }
